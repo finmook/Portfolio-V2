@@ -38,7 +38,7 @@ export default function Projects() {
         <SectionHeading
           eyebrow="Selected work"
           title="Projects"
-          subtitle="Filter by category to see full-stack products, frontend builds, backend services, data/AI work, and standalone software."
+          subtitle="The categories include full-stack products, frontend builds, backend services, data/AI work, and standalone software."
         />
 
         <Stack

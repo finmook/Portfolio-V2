@@ -50,31 +50,32 @@ export const skillCategories: SkillCategory[] = [
       "Bootstrap",
       "jQuery",
       "EJS",
+      "JSP"
     ],
   },
   {
     id: "backend",
     label: "Backend",
     description: "APIs, services and server-side logic",
-    skills: ["Node.js / Express", "Spring Boot", "FastAPI"],
+    skills: ["Node.js / Express", "Spring Boot", "FastAPI", "SQL", "PostgreSQL", "Supabase", "Neon", "MongoDB", "Prisma"],
   },
   {
     id: "data",
     label: "Data",
     description: "Databases, ORMs and data modeling",
-    skills: ["PostgreSQL", "Supabase", "Prisma", "Neon"],
+    skills: ["LLM", "ML pipelines", "Deep learning", "Python", "Streamlit"],
   },
   {
     id: "devops",
     label: "DevOps & Cloud",
     description: "Shipping and running software reliably",
-    skills: ["Docker", "AWS", "GitHub Actions", "Vercel"],
+    skills: ["Docker", "AWS", "GitHub Actions", "Vercel", "Gitlab CI/CD"],
   },
   {
     id: "tools",
     label: "Tools",
     description: "Workflow and collaboration",
-    skills: ["Git", "GitHub", "GitLab"],
+    skills: ["Git", "GitHub", "GitLab", "Claude MCP"],
   },
 ];
 
@@ -242,6 +243,7 @@ export type CertificationCategory = {
 };
 
 export const certificationCategories: CertificationCategory[] = [
+  { id: "all", label: "All" },
   { id: "web", label: "Web" },
   { id: "data", label: "Data" },
   { id: "cloud", label: "Cloud" },

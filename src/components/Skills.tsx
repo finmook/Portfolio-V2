@@ -22,7 +22,7 @@ export default function Skills() {
         <SectionHeading
           eyebrow="What I work with"
           title="Skills"
-          subtitle="Grouped by the kind of problem they help me solve — from pixels on screen to data in a database."
+          subtitle="Technologies and tools I use to build, deploy, and improve applications."
         />
 
         <Paper

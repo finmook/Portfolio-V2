@@ -16,7 +16,7 @@ export default function Footer() {
     >
       <Container maxWidth="lg">
         <Typography variant="body2" sx={{ color: "text.secondary" }}>
-          © {new Date().getFullYear()} {profile.name}. Built with Next.js & MUI.
+          © {new Date().getFullYear()} {profile.name}.
         </Typography>
       </Container>
     </Box>

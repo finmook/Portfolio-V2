@@ -18,7 +18,10 @@ export default function Activities() {
   const [certFilter, setCertFilter] = React.useState(certificationCategories[0].id);
 
   const filteredCertifications = React.useMemo(
-    () => certifications.filter((cert) => cert.category === certFilter),
+    () =>
+      certFilter === "all"
+        ? certifications
+        : certifications.filter((cert) => cert.category === certFilter),
     [certFilter]
   );
 
