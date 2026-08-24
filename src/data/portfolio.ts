@@ -227,13 +227,20 @@ export const activities: Activity[] = [
     title: "Vishnu Camp",
     role: "Staff",
     description: "Managed first-year students and organized camp activities.",
-    image: "/images/vishnu1.jpg",
+    image: "/images/vishnu2.jpg",
   },
   {
     title: "Rubpoenkaomai",
     role: "PR Team",
     description: "Created and promoted group content across social media.",
-    image: "/images/baankids.jpg",
+    image: "/images/baankids.webp",
+  },
+  {
+    title: "CBA club",
+    role: "SP (sales professionist) position",
+    description:
+      "This club is run by the Business Faculty of Chulalongkorn University. It operates as a mock company where every role — from salesperson to CEO — is filled by students. I was admitted to this club for the first time between my second and third year.",
+    image: "/images/CBAparty.webp",
   },
 ];
 
@@ -280,6 +287,11 @@ export const certifications: Certification[] = [
   {
     name: "SET Internship Certificate",
     image: "/images/SETCertificate.webp",
+    category: "experience",
+  },
+  {
+    name: "CBA Certified Sales Professional",
+    image: "/images/CBAcertificate.webp",
     category: "experience",
   },
 ];
