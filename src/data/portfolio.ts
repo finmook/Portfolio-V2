@@ -276,6 +276,11 @@ export const certifications: Certification[] = [
     image: "/images/RAG2.webp",
     category: "data",
   },
+  {
+    name: "Introduction to Apache Kafka",
+    image: "/images/kafka.webp",
+    category: "data",
+  },
   { name: "Vercel Certificate", image: "/images/vercel.webp", category: "web" },
   { name: "Huawei Certificate", image: "/images/Huawei.PNG", category: "cloud" },
   {
