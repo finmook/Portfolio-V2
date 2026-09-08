@@ -63,13 +63,13 @@ export const skillCategories: SkillCategory[] = [
     id: "data",
     label: "Data",
     description: "Databases, ORMs and data modeling",
-    skills: ["LLM", "ML pipelines", "Deep learning", "Python", "Streamlit"],
+    skills: ["LLM", "ML pipelines", "Pytorch", "LangChain", "Python", "Streamlit"],
   },
   {
-    id: "devops",
-    label: "DevOps & Cloud",
+    id: "infra",
+    label: "Infrastructure",
     description: "Shipping and running software reliably",
-    skills: ["Docker", "AWS", "GitHub Actions", "Vercel", "Gitlab CI/CD"],
+    skills: ["Docker", "Kubernetes", "AWS", "GitHub Actions", "Vercel", "Render", "Gitlab CI/CD"],
   },
   {
     id: "tools",
@@ -279,6 +279,16 @@ export const certifications: Certification[] = [
   {
     name: "Introduction to Apache Kafka",
     image: "/images/kafka.webp",
+    category: "data",
+  },
+  {
+    name: "Introduction to Deep Learning with Pytorch",
+    image: "/images/IntroPytorch.webp",
+    category: "data",
+  },
+  {
+    name: "Intermidiate Deep Learning with Pytorch",
+    image: "/images/IntroPytorch.webp",
     category: "data",
   },
   { name: "Vercel Certificate", image: "/images/vercel.webp", category: "web" },
