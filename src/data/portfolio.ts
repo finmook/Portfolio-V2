@@ -288,7 +288,7 @@ export const certifications: Certification[] = [
   },
   {
     name: "Intermidiate Deep Learning with Pytorch",
-    image: "/images/IntroPytorch.webp",
+    image: "/images/IntermidiatePytorch.webp",
     category: "data",
   },
   { name: "Vercel Certificate", image: "/images/vercel.webp", category: "web" },
