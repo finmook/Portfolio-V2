@@ -293,6 +293,7 @@ export const certifications: Certification[] = [
   },
   { name: "Vercel Certificate", image: "/images/vercel.webp", category: "web" },
   { name: "Huawei Certificate", image: "/images/Huawei.PNG", category: "cloud" },
+  { name: "AWS Certificate", image: "/images/aws.webp", category: "cloud" },
   {
     name: "Introduction to Computer Science Certificate",
     image: "/images/introToComsci.webp",
