@@ -106,6 +106,16 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "RoleFit",
+    description:
+      "Group microservices project: an explainable job-matching platform that compares a candidate's profile with each job's requirements and tailors their resume with AI, without inventing skills. Links to the team's GitHub org with all service repos.",
+    category: ["fullstack", "backend", "data-ai"],
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "gRPC", "RabbitMQ", "Supabase", "Gemini", "Docker"],
+    github: "https://github.com/Tiramisu-SA",
+    featured: true,
+    image: "/images/RoleFit.webp",
+  },
+  {
     title: "Ride Sharing Web",
     description:
       "Full-stack ride sharing platform built as a group project; served as the full-stack developer on the team.",
