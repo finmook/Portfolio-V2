@@ -106,6 +106,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Shop Reservation",
+    description:
+      "First-come-first-served pre-order site for a small plush shop. Handles near-simultaneous clicks with a 500 ms batching window and transactional stock updates so it never oversells, with live stock via Server-Sent Events, rate limiting, and an admin dashboard. Runs on a Render free instance kept awake by a cron job.",
+    category: ["fullstack", "backend"],
+    tech: ["React", "Vite", "Express", "MongoDB", "SSE", "Render", "Cron Job"],
+    github: "https://github.com/finmook/shop-reservation",
+    demo: "https://shop-reservation.pages.dev/",
+    featured: true,
+    image: "/images/ShopReservation.webp",
+  },
+  {
     title: "RoleFit",
     description:
       "Group microservices project: an explainable job-matching platform that compares a candidate's profile with each job's requirements and tailors their resume with AI, without inventing skills. Links to the team's GitHub org with all service repos.",
